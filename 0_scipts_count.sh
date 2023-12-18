@@ -3,7 +3,7 @@
 scrp=($(ls | grep .sh))
 num=${#scrp[@]}
 #memo=${scrp[@]}
-echo $memo
+#echo $memo
 #let "num -=1"
 for (( i=0; i<$num; i++  )); do
 echo ${scrp[$i]}
